@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// import ' ./styles/tailwind.css';
+import './styles/tailwind.css'
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import Game from './f3game/Game';
+import './styale.css'
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+    <Game />,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 

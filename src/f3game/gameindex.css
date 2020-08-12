@@ -1,0 +1,378 @@
+.dialogue {
+    display: grid;
+    width: 686px;
+    height: 175.68px;
+    background-color: #0F1216;
+    grid-template-rows: 60% 40%;
+
+
+
+}
+.dare{
+     color: 'red'!important
+}
+.upper {
+    display: grid;
+    background-color: #171F26;
+    grid-template-columns: 75% 25%;
+    gap: 10px;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+
+}
+
+.box-grid-m {
+    margin-top: 20px;
+    width: 105.34px;
+    height: 99.4px;
+}
+
+.box-grid {
+    margin-top: 20px;
+    width: 139px;
+    height: 78px;
+}
+
+
+.bar {
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+
+}
+
+.upperbar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    /* margin: 15px; */
+    margin-top: 15px;
+    margin-left: 15px;
+
+
+
+}
+
+.lowerbar {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    /* justify-content: center; */
+    /* justify-items: center; */
+    justify-items: center;
+    align-items: center;
+    /* justify-content: center;
+    align-content: center; */
+
+    /* grid-template-columns: 3fr 2fr; */
+}
+
+.innerbox {
+
+    width: 66.21px;
+    height: 24.72px;
+    background-color: #202428;
+    text-align: center;
+    text-justify: auto;
+    color: white;
+    margin: 2px;
+    margin-top: 10px;
+    font-size: 12.36px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+
+}
+
+.innerbox-gray {
+    background-image: url("../f3game/img/Rectangle 21 (1).png");
+
+}
+
+.innerbox-red {
+    background-image: url("../f3game/img/rred.png");
+}
+
+
+.innerbox-m {
+
+    width: 63.07px;
+    height: 29px;
+    background-color: #202428;
+    text-align: center;
+    text-justify: auto;
+    color: white;
+    margin: 2px;
+    margin-top: 2px;
+    font-size: 10.5198px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+
+}
+
+
+
+.innerbox-red {
+    background-image: url("../f3game/img/rred.png");
+}
+
+
+
+
+.box-red {
+    color: red;
+}
+
+.range {
+
+    /* grid-column: 2/ span 3; */
+    /* grid-row-start: 1; */
+
+    background-image: url("../f3game/img/line.png");
+    width: 271.03px;
+    margin-left: 25px;
+    height: 1.77px;
+
+
+}
+
+.slider {
+    background-image: url("../f3game/img/line.png");
+    width: 271.03px;
+    margin-left: 25px;
+    height: 1.77px;
+
+    margin-top: 20px;
+    -webkit-appearance: none;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+
+}
+
+
+.input {
+
+
+
+    height: 33.55px;
+    margin-top: 5px;
+
+    /* background-image: url("img/input.png"); */
+    border-color: #2A3137;
+    border-style: solid;
+
+
+    background-color: #2A3137;
+
+    text-align: center;
+    color: white;
+
+    align-items: center;
+    /* justify-items: center; */
+
+}
+
+.slider-m {
+    background-image: url("../f3game/img/line-m.png");
+    width: 92px;
+    height: 2px;
+    margin-left: 10px;
+
+
+    margin-top: 20px;
+    -webkit-appearance: none;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+
+}
+
+
+.input-m {
+
+
+    width: 94.8px;
+    height: 28px;
+    margin-top: 5px;
+
+    /* background-image: url("img/input.png"); */
+    border-color: #2A3137;
+    border-style: solid;
+
+
+    background-color: #2A3137;
+
+    text-align: center;
+    color: white;
+
+    align-items: center;
+    /* justify-items: center; */
+
+}
+
+.inputStatic {
+
+
+    /* grid-column: 5/ span 2; */
+    /* grid-row-start: 1; */
+
+    /* width: 141.25px; */
+    height: 33.55px;
+    margin-top: 5px;
+
+    /* background-image: url("img/input.png"); */
+    border-color: #2A3137;
+    border-style: solid;
+
+
+    background-color: #2A3137;
+
+    text-align: center;
+    color: white;
+
+    align-items: center;
+    justify-items: center;
+    font-size: large;
+
+}
+
+.inputValue {
+    height: 33.55px;
+}
+
+
+
+
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 17.66px;
+    height: 17.66px;
+    border: 0;
+    background: url('../f3game/img/slider.png');
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 17.66px;
+    height: 17.66px;
+    border: 0;
+    background: url('../f3game/img/slider.png');
+    cursor: pointer;
+}
+
+.slider-m::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15.13px;
+    height: 15px;
+
+    border: 0;
+    background: url('../f3game/img/slider-m.png');
+    cursor: pointer;
+}
+
+.slider-m::-moz-range-thumb {
+    width: 15.13px;
+    height: 15px;
+    border: 0;
+    background: url('../f3game/img/slider-m.png');
+    cursor: pointer;
+}
+
+.lower {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 658px;
+    height: 37px;
+    background-color: #252B31;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: end;
+    line-height: 35px;
+    color: white;
+
+
+}
+
+.totalValue {
+    background-color: #252B31;
+    height: 37px;
+    text-align: center;
+
+}
+
+.totalValue-m {
+    background-color: #252B31;
+    height: 28px;
+    text-align: center;
+
+}
+
+.rangebar {
+    width: 483px;
+    height: 37px;
+    background-color: #99591F;
+    text-align: center;
+    text-justify: auto;
+    color: white;
+    line-height: 35px;
+
+
+}
+
+.lower-m {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /* width: 324px; */
+    width: 95%;
+    height: 28px;
+    background-color: #252B31;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: end;
+    line-height: 25px;
+    color: white;
+}
+
+.rangebar-m {
+    width: 247px;
+    height: 28px;
+    background-color: #99591F;
+    text-align: center;
+    text-justify: auto;
+    color: white;
+    line-height: 25px;
+
+
+}
+
+.grid-cont-m-col {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-content: center;
+    align-items: center;
+
+}
+
+.grid-cont-m-row {
+    display: grid;
+    grid-template-rows: 60% 40%;
+    
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}

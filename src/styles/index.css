@@ -1,61 +1,155 @@
-
-/**
- * This injects Tailwind's base styles, which is a combination of
- * Normalize.css and some additional base styles.
- *
- * You can see the styles here:
- * https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
- *  "scripts"
- * If using `postcss-import`, use this import instead:
- *
- * @import "tailwindcss/base";
- */
- @tailwind base;
-
- /**
-  * This injects any component classes registered by plugins.
-  *
-  * If using `postcss-import`, use this import instead:
-  *
-  * @import "tailwindcss/components";
-  */
+@tailwind base;
 @tailwind components;
-/**
-  * Here you would add any of your custom component classes; stuff that you'd
-  * want loaded *before* the utilities so that the utilities could still
-  * override them.
-  *
-  * Example:
-  *
-  * .btn { ... }
-  * .form-input { ... }
-  *
-  * Or if using a preprocessor or `postcss-import`:
-  *
-  * @import "components/buttons";
-  * @import "components/forms";
-  */
- 
- /**
-  * This injects all of Tailwind's utility classes, generated based on your
-  * config file.
-  *
-  * If using `postcss-import`, use this import instead:
-  *
-  * @import "tailwindcss/utilities";
-  */
+
+.h-ht50 {
+	height: 50%;
+}
+
+.h-ht20 {
+	height: 20%;
+}
+
+.h-ht25 {
+	height: 25%;
+}
+
+.h-ht33 {
+	height: 33%;
+}
+
+.h-ht66 {
+	height: 66%;
+}
+
+.h-ht60 {
+	height: 60%;
+}
+
+.h-ht75 {
+	height: 75%;
+}
+
+.h-ht80 {
+	height: 80%;
+}
+
+.odice {
+
+	width: 4rem;
+	height: 4rem;
+	--bg-opacity: 1;
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, var(--bg-opacity));
+	--border-opacity: 1;
+	border-color: #dd6b20;
+	border-color: rgba(221, 107, 32, var(--border-opacity));
+	border-width: 4px;
+	--border-opacity: 0.75;
+	border-radius: 0.5rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+
+}
+
+.bdice {
+	width: 4rem;
+	height: 4rem;
+	--bg-opacity: 1;
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, var(--bg-opacity));
+	--border-opacity: 1;
+	border-color: #000;
+	border-color: rgba(0, 0, 0, var(--border-opacity));
+	border-width: 2px;
+	--border-opacity: 0.75;
+	border-radius: 0.5rem;
+
+	margin-left: 0.25rem;
+	margin-right: 0.25rem;
+
+}
+
+.mob-b-dice {
+
+	width: 44.48px;
+	height: 44.48px;
+	--bg-opacity: 1;
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, var(--bg-opacity));
+	--border-opacity: 1;
+	border-color: #000;
+	border-color: rgba(0, 0, 0, var(--border-opacity));
+	border-width: 2px;
+	--border-opacity: 0.75;
+	border-radius: 0.5rem;
+
+	margin-left: 0.25rem;
+	margin-right: 0.25rem;
+}
+
+
+/* .grid-container {
+	display: grid;
+	width: 686px;
+	height: 175.68px;
+
+	background-color: lightgray;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	justify-items: center;
+
+} */
+
+
+.grid-container {
+	display: grid;
+	width: 686px;
+	height: 175.68px;
+
+
+	background-color: lightgray;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	justify-items: center;
+
+}
+
+
+
+
+
+
+
+.h-54p {
+
+	height: 54%;
+
+}
+
+.h-29p {
+
+	height: 29%;
+
+}
+
+.h-24p {
+
+	height: 24%;
+
+}
+
+.h-47p {
+
+	height: 47%;
+
+}
+
+
+
+
+
+
+
 @tailwind utilities;
-/**
-  * Here you would add any custom utilities you need that don't come out of the
-  * box with Tailwind.
-  *
-  * Example :
-  *
-  * .bg-pattern-graph-paper { ... }
-  * .skew-45 { ... }
-  *
-  * Or if using a preprocessor or `postcss-import`:
-  *
-  * @import "utilities/background-patterns";
-  * @import "utilities/skew-transforms";
-  */
